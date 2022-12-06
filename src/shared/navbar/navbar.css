@@ -1,0 +1,59 @@
+.nav-bar {
+    font-size: 100%
+}
+
+.nav-bar Container {
+    font-size: 1.6rem;
+}
+
+.text-link a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.text-link a:hover {
+    color: #61dafb;
+    transition: 0.5s;
+}
+
+.return-button {
+    color: white;
+    margin-left: 30px;
+}
+
+.return-button svg {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 540px) {
+    .logo {
+        margin-right: 0 !important;
+    }
+
+    .my-container {
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    .nav-bar {
+        font-size: 70%
+    }
+
+    .return-button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    #logo-react {
+        width: 45px;
+    }
+
+    .return-button{
+        margin-left: 20px;
+    }
+}
